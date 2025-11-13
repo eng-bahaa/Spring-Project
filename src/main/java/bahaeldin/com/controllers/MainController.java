@@ -12,4 +12,9 @@ public class MainController {
 	void getMapping() {
 		System.out.println("Hello World!");
 	}
+
+	@GetMapping(value = "bahaa")
+	public String greeting() {
+		return "Bahaeldin From Spring Server";
+	}
 }
