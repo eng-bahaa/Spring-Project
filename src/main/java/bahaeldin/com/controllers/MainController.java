@@ -17,4 +17,10 @@ public class MainController {
 	public String greeting() {
 		return "Bahaeldin From Spring Server";
 	}
+
+	@GetMapping(value = "hello")
+	public String hello() {
+		System.out.println("Hello World!");
+		return "Hello World!";
+	}
 }
