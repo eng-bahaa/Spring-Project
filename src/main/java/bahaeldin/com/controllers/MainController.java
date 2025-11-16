@@ -23,4 +23,11 @@ public class MainController {
 		System.out.println("Hello World!");
 		return "Hello World!";
 	}
+
+	@GetMapping(value = "name")
+	public String getName() {
+		System.out.println("Hello World!");
+		return "Bahaeldin Bahar Rahma";
+	}
+
 }
