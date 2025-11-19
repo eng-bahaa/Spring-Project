@@ -36,4 +36,10 @@ public class MainController {
 		return "Bahaeldin Bahar Rahma";
 	}
 
+	@GetMapping(value = "firstname")
+	public String getFirstName() {
+		System.out.println("Hello World!");
+		return "Bahaeldin Bahar Rahma";
+	}
+
 }
