@@ -42,4 +42,10 @@ public class MainController {
 		return "Bahaeldin Bahar Rahma";
 	}
 
+	@GetMapping(value = "middname")
+	public String getMiddtName() {
+		System.out.println("Hello World!");
+		return "Bahaeldin Bahar Rahma";
+	}
+
 }
